@@ -19,7 +19,7 @@
 //main
 //============================================
 int main(){
-  int montante = 500 * pow(1+0.01,3);
-  printf("Apos tres meses o valor da conta sera: %d\n",montante);
-  return 0;
-}
+  int montante = 500 * pow(1+0.01,3);// Onde acontece o calculo do montante
+  printf("Apos tres meses o valor da conta sera: %d\n",montante);//printa no cmd
+  return 0;//se o programa rodar certo, retorna 0
+}//main
