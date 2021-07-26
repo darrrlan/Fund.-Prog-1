@@ -18,13 +18,16 @@
 //main
 //============================================
 int main(){
+  //variaveis
   float hora;
   float percorreu;
   float combustivel;
-  hora = (float)35/60;
-  percorreu = 80 * hora;
-  combustivel = percorreu/12;
-  printf("Gastou %.2f litros\n",combustivel );
 
-  return 0;
-}
+  hora = (float)35/60;//trasnforma minutos em horas
+  percorreu = 80 * hora;// descobre quanto que foi percorrido
+  combustivel = percorreu/12;//quantos litros foram gastos no percursso
+
+  printf("Gastou %.2f litros\n",combustivel );//printa no cmd
+
+  return 0;//se o programa rodar certo, retorna 0
+}//main
