@@ -18,7 +18,7 @@
 //main
 //============================================
 int main(){
-  float peso_ideal = 72.7 * ALTURA - 58;
-  printf("Seu peso ideal eh: %.2f\n",peso_ideal );
-  return 0;
-}
+  float peso_ideal = 72.7 * ALTURA - 58;//onde ocorre o calculo do peso idela
+  printf("Seu peso ideal eh: %.2f\n",peso_ideal );//printa no cmd
+  return 0;//se o programa rodar certo, retorna 0
+}//main
